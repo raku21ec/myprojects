@@ -7,11 +7,13 @@
 }
 p{
     font-size: 16px;
-    color: #CC7C6A;
+    color:azure;
     margin: 15px 0 20px 0;
 }
 body{
     width: 100%;
+    background-color: black;
+    color: cadetblue;
 }
 #header{
     display: flex;
@@ -59,24 +61,40 @@ body{
 }
 #body1 h1{
     padding: 15px;
-    color:blueviolet;
+    color:#39FF14;
+    font-size: 35px;
 }
 #body2{
     background-image: url(/img/2.jpg);
     height: 100vh;
     width: 100%;
     background-size: cover;
-    background-position: top 25% right 0%;
     padding: 0px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 
+}
+#body2 h2{
+    padding: 20px;
+    color: floralwhite;
+    font-size: 35px;
+}
+#body2 a{
+    text-decoration: none;
+    padding: 0px 20px;
+    color: floralwhite;
+    font-size: 20px;
+}
+#body2 a:hover{
+    text-decoration: underline;
 }
 #body3{
     background-image: url(/img/3.jpg);
     height: 100vh;
     width: 100%;
     background-size: cover;
-    background-position: top 25% right 0%;
-    padding: 0px 80px;
 
 }
 #body4{
@@ -84,8 +102,7 @@ body{
     height: 100vh;
     width: 100%;
     background-size: cover;
-    background-position: top 25% right 0%;
-    padding: 0px 80px;
+    
 
 }
 #body5{
@@ -93,7 +110,17 @@ body{
     height: 100vh;
     width: 100%;
     background-size: cover;
-    background-position: top 25% right 0%;
-    padding: 0px 80px;
     
+}
+.section-p1{
+    padding: 40px 80px;
+}
+#peri .mice1{
+    width: 400px;
+    text-align: center;
+    padding: 25px 15px;
+}
+#peri .mices{
+    display: flex;
+    justify-content: space-between;
 }
