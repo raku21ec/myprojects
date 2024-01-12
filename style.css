@@ -95,14 +95,9 @@ body{
     height: 100vh;
     width: 100%;
     background-size: cover;
-
-}
-#body4{
-    background-image: url(/img/1.jpg);
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 #body5{
@@ -123,4 +118,17 @@ body{
 #peri .mices{
     display: flex;
     justify-content: space-between;
+}
+#body3 h1{
+    padding: 20px;
+    font-size: 35px;
+    color: floralwhite;
+}
+#body3 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: floralwhite;
+}
+#body3 a:hover{
+    text-decoration:underline;
 }
