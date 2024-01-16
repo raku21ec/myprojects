@@ -110,12 +110,12 @@ body{
 .section-p1{
     padding: 40px 80px;
 }
-#peri .mice1{
+#peri .box{
     width: 400px;
     text-align: center;
     padding: 25px 15px;
 }
-#peri .mices{
+#peri .container{
     display: flex;
     justify-content: space-between;
 }
@@ -131,4 +131,31 @@ body{
 }
 #body3 a:hover{
     text-decoration:underline;
+}
+
+#btn{
+    border: none;
+    color: white;
+    background-color:blueviolet;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#cart{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid cadetblue;
+    margin: 10% 0% 25% 25%;
+}
+#cart h1{
+    font-size: 35px;
+    color: azure;
+    padding: 10px;
 }
